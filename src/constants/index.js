@@ -20,6 +20,7 @@ import {
   tesla,
   shopify,
   carrent,
+  framer,
   jobit,
   tripguide,
   threejs,
@@ -30,6 +31,11 @@ import {
   promptopia,
   dizilo,
   trekify,
+  firebase,
+  mysql,
+  express,
+  mui,
+  appwrite
 } from "../assets";
 
 export const navLinks = [
@@ -289,5 +295,207 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
+
+export const Skill_data = [
+  {
+    skill_name: "Html 5",
+    Image: html,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: css,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: javascript,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: tailwind,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: reactjs,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    Image: redux,
+    width: 80,
+    height: 80,
+  },
+  
+  {
+    skill_name: "Type Script",
+    Image: typescript,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: next,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Framer Motion",
+    Image: framer,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node js",
+    Image: nodejs,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mongo db",
+    Image: mongodb,
+    width: 40,
+    height: 40,
+  },
+
+];
+export const Frontend_skill = [
+  {
+    skill_name: "Html 5",
+    Image: html,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Css",
+    Image: css,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java Script",
+    Image: javascript,
+    width: 65,
+    height: 65,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: tailwind,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Material UI",
+    Image: mui,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "React",
+    Image: reactjs,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Redux",
+    Image: redux,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Type Script",
+    Image: typescript,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Next js 13",
+    Image: next,
+    width: 80,
+    height: 80,
+  },
+];
+
+export const Backend_skill = [
+  {
+    skill_name: "Node js",
+    Image: nodejs,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Express js",
+    Image: express,
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Mongo db",
+    Image: mongodb,
+    width: 40,
+    height: 40,
+  },
+  {
+    skill_name: "Fire base",
+    Image: firebase,
+    width: 55,
+    height: 55,
+  },
+
+  {
+    skill_name: "My SQL",
+    Image: mysql,
+    width: 70,
+    height: 70,
+  },
+
+  {
+    skill_name: "Appwrite",
+    Image: appwrite,
+    width: 80,
+    height: 80,
+  },
+];
+
+export const Full_stack = [
+  
+
+  {
+    skill_name: "Figma",
+    Image: figma,
+    width: 50,
+    height: 50,
+  },
+
+];
+
+
+
+export const Other_skill = [
+  {
+    skill_name: "C++",
+    Image: cpp,
+    width: 60,
+    height: 60,
+  },
+  {
+    skill_name: "Python",
+    Image: python,
+    width: 60,
+    height: 60,
+  },
+];
+
+
+
+
+
 
 export { services, technologies, experiences, testimonials, projects };
