@@ -2,11 +2,12 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa"; // Importing icons
-import cv from '../../public/resume.pdf'
+
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+
 
 const Contact = () => {
   const formRef = useRef();
@@ -131,10 +132,10 @@ const Contact = () => {
           <a href="https://www.linkedin.com/in/tushar-pareenja-348a7b254/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} className="text-white hover:text-primary" />
           </a>
-          <a href="mailto:tusharpareenja@example.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:tusharpareenja@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope size={30} className="text-white hover:text-primary" />
           </a>
-          <a href="../../public/resume.pdf" download>
+          <a href="public/resume.pdf" download>
             <FaDownload size={30} className="text-white hover:text-primary" />
           </a>
         </div>

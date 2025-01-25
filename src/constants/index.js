@@ -292,7 +292,36 @@ const projects = [
       },
     ],
     image: promptopia,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tusharpareenja/promptopia",
+  },
+  {
+    name: "Learnify",
+    description:
+      "Learnify is an AI-powered course generator designed to revolutionize online learning. By leveraging the Gemini API and YouTube API, Learnify creates personalized, comprehensive courses tailored to individual learning goals. The platform integrates AI to curate relevant video content, generate structured course outlines, and provide interactive learning materials. Whether you're exploring a new topic or deepening existing knowledge, Learnify simplifies the process by delivering a seamless and engaging learning experience. Its intelligent recommendations and dynamic content generation ensure that users receive high-quality, up-to-date resources. Learnify embodies innovation in education, making learning accessible, efficient, and tailored for everyone.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next-auth",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "postgreSQL",
+        color: "green-text-gradient",
+      },
+    ],
+    image: promptopia,
+    source_code_link: "https://github.com/tusharpareenja/Learnify",
   },
 ];
 
@@ -300,69 +329,69 @@ export const Skill_data = [
   {
     skill_name: "Html 5",
     Image: html,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Css",
     Image: css,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Java Script",
     Image: javascript,
-    width: 65,
-    height: 65,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Tailwind Css",
     Image: tailwind,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "React",
     Image: reactjs,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Redux",
     Image: redux,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   
   {
     skill_name: "Type Script",
     Image: typescript,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Next js 13",
     Image: next,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Framer Motion",
     Image: framer,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Node js",
     Image: nodejs,
-    width: 80,
-    height: 80,
+    width: 100,
+    height: 100,
   },
   {
     skill_name: "Mongo db",
     Image: mongodb,
-    width: 40,
-    height: 40,
+    width: 100,
+    height: 100,
   },
 
 ];
