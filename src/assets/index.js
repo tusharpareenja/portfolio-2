@@ -39,6 +39,7 @@ import framer from "./tech/framer.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Learnify from "./learnify.png"
 
 export {
   logo,
@@ -81,5 +82,6 @@ export {
   mysql,
   appwrite,
   express,
-  framer
+  framer,
+  Learnify,
 };

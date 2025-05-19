@@ -35,7 +35,8 @@ import {
   mysql,
   express,
   mui,
-  appwrite
+  appwrite,
+  Learnify
 } from "../assets";
 
 export const navLinks = [
@@ -320,7 +321,7 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: promptopia,
+    image: Learnify,
     source_code_link: "https://github.com/tusharpareenja/Learnify",
   },
 ];
